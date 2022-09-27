@@ -16,7 +16,7 @@ class AdminBlogController extends Controller
     }
     public function create()
    {
-    return view('blogs.create', [
+    return view('admin.blogs.create', [
         'categories' => Category::all()
     ]);
 }
@@ -41,4 +41,11 @@ public function store()
     $blog->delete();
     return back();
    }
+
+   public function edit()
+   {
+    return view('admin.blogs.edit', [
+        'categories' => Category::all()
+    ]);
+}
 }

@@ -32,7 +32,7 @@
           placeholder="မြန်-ဆန်-တိ-ကျ"
         />
         <button
-          class="input-group-text bg-primary text-light"
+          class="paleblue white"
           id="basic-addon2"
           type="submit"
         >

@@ -1,4 +1,18 @@
-body {
-    max-width: 900px;
-    margin: auto;
+/* body {
+   margin-top: 100%;
+   margin-bottom: 50%;
+} */
+
+.theblue{
+    background-color: #0295A9;
+}
+button {
+    background-color: #12ADC1;
+}
+
+.yellow{
+    background-color: #FDD037;
+}
+.white{
+    color: #FFFFFF;
 }
