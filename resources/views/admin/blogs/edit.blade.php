@@ -1,5 +1,5 @@
 <x-admin-layout>
-    <h3 class="my-3 text-center">Blog Create Form</h1>
+    <h3 class="my-3 text-center">Blog Edit Form</h1>
 
             <x-card-wrapper>
                 <form
@@ -8,11 +8,14 @@
                     method="POST"
                 >
                     @csrf
-                    <x-form.input name="title"/>
-                    <x-form.input name="slug"/>
-                    <x-form.input name="intro"/>
-                    <x-form.textarea name="body"/>
+                    <x-form.input name="title" value="{{$blog->title}}"/>
+                    <x-form.input name="slug" value="{{$blog->slug}}"/>
+                    <x-form.input name="intro" value="{{$blog->intro}}"/>
+                    <x-form.textarea name="body" value="{{$blog->body}}"/>
                     <x-form.input name="thumbnail" type="file"/>
+                    <img src="/storage/{{$blog->thumbnail}}"
+                    width="200px" height="100px"
+                    alt="">
                     <x-form.input-wrapper>
                         <x-form.label name="category"/>
                         <select
@@ -21,7 +24,7 @@
                             class="form-control"
                         >
                             @foreach ($categories as $category)
-                            <option {{$category->id==old('category_id') ? 'selected':''}}
+                            <option {{$category->id==old('category_id',$blog->category->id) ? 'selected':''}}
                                 value="{{$category->id}}">{{$category->name}}
                             </option>
                             @endforeach

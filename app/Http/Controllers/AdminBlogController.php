@@ -42,9 +42,10 @@ public function store()
     return back();
    }
 
-   public function edit()
+   public function edit(blog $blog)
    {
     return view('admin.blogs.edit', [
+        'blog' => $blog,
         'categories' => Category::all()
     ]);
 }

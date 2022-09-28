@@ -1,5 +1,5 @@
 @props(['blog'])
-<div class="card">
+<div class="card" style="width:18em;">
     <img
       src="/storage/{{$blog->thumbnail}}"
       class="card-img-top"
