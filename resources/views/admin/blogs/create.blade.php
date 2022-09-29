@@ -1,5 +1,7 @@
 <x-admin-layout>
-    <h3 class="my-3 text-center">Blog Create Form</h1>
+   <div class="container my-5">
+    <div class="row">
+        <h3 class="mt-5 text-center">Blog Create Form</h1>
 
             <x-card-wrapper>
                 <form
@@ -36,5 +38,7 @@
                     </div>
                 </form>
             </x-card-wrapper>
+    </div>
+   </div>
 
 </x-admin-layout>
