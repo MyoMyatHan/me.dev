@@ -1,14 +1,57 @@
 <section class="px-4 py-5 my-5 text-center">
-    <img class="d-block mx-auto mb-4 bg" src="/images/avator.png" alt="" width="250" />
-    <h1 class="display-5 fw-bold">I'm fucking web developer!!Hoo Yeaa!!</h1>
+    <img class="d-block mx-auto mb-4 bg" src="/images/bar.jpg" alt="" width="250" />
+    <h1 class="display-5 fw-bold">“Roll the Dice” by Charles Bukowski</h1>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4 lh-lg mt-4">
-        Creative Coder ဆိုတာကတော့ Programming Language နဲ့ပက်သက်
-        ပြီးလမ်းပျောက်နေတဲ့ လူငယ်တွေ ၊ Web development လောကထဲ စတင်
-        ဝင်ချင်သူတွေအတွက် အခမဲ့အတန်းလေးများရော | fees ဖြင့် အတန်းများရော
-        Online Course လေးတွေဖွင့်ပေးကာသင်ပေးသော
-        ကျောင်းလေးပဲဖြစ်ပါတယ်ခင်ဗျ။နေ့စဉ်နှင့်အပတ်စဉ်လဲ လေ့လာသူတို့ ဗဟုသုတ
-        တိုးအောင် Tricks & blogs များအစဉ်မပြတ်တင်ပေးသော ကျောင်းလေးဖြစ်ပါတယ်။
+        if you’re going to try, go all the
+        way. <br>
+        otherwise, don’t even start.<br>
+
+        if you’re going to try, go all the
+        way.<br>
+        this could mean losing girlfriends,<br>
+        wives, relatives, jobs and<br>
+        maybe your mind.<br>
+
+        go all the way.<br>
+        it could mean not eating for 3 or 4 days.<br>
+        it could mean freezing on a
+        park bench.<br>
+        it could mean jail,<br>
+        it could mean derision,<br>
+        mockery,
+        isolation.<br>
+        isolation is the gift,<br>
+        all the others are a test of your<br>
+        endurance, of<br>
+        how much you really want to<br>
+        do it.<br>
+        and you’ll do it<br>
+        despite rejection and the worst odds<br>
+        and it will be better than<br>
+        anything else<br>
+        you can imagine.<br>
+
+        if you’re going to try,<br>
+        go all the way.<br>
+        there is no other feeling like<br>
+        that.<br>
+        you will be alone with the gods<br>
+        and the nights will flame with<br>
+        fire.<br>
+
+        do it, do it, do it.<br>
+        do it.<br>
+
+        all the way<br>
+        all the way.<br>
+
+        you will ride life straight to<br>
+        perfect laughter, its<br>
+        the only good fight<br>
+        there is.
+
+
       </p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
 
